@@ -1,0 +1,13 @@
+1 注册接口测试：
+curl -X POST https://zwurdnqgiluh.sealoshzh.site/api/register \
+-H "Content-Type: application/json" \
+-d '{"username":"testuser","password":"123456"}'
+
+2 登录接口测试：
+curl -X POST https://zwurdnqgiluh.sealoshzh.site/api/login \
+-H "Content-Type: application/json" \
+-d '{"username":"testuser","password":"123456"}'
+
+3 查询用户信息接口测试：
+curl -X GET https://zwurdnqgiluh.sealoshz9c9d3aea1164 \ 
+-H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzcwZmU3YTI5MWQ5YzlkM2FlYTExNjQiLCJpYXQiOjE3MzU0NTg0NDgsImV4cCI6MTczNTU0NDg0OH0.WUenALNl3E6qiT4xyzYQios-6FxnXV18SuT5Go1f57g"
